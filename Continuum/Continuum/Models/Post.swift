@@ -25,3 +25,9 @@ class Post {
         self.comments = comments
     }
 }
+
+extension Post: SearchableRecord {
+    func matches(searchTerm: String) -> Bool {
+        return caption.lowercased().contains(searchTerm.lowercased())
+    }
+}

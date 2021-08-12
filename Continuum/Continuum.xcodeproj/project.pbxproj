@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5AFD77526C49394008EA074 /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AFD77426C49394008EA074 /* PhotoSelectorViewController.swift */; };
 		B5C87B1426C31335005AEF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B1326C31335005AEF65 /* AppDelegate.swift */; };
 		B5C87B1626C31335005AEF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B1526C31335005AEF65 /* SceneDelegate.swift */; };
 		B5C87B1B26C31335005AEF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C87B1926C31335005AEF65 /* Main.storyboard */; };
@@ -22,9 +23,11 @@
 		B5C87B4026C3279E005AEF65 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B3F26C3279E005AEF65 /* PostError.swift */; };
 		B5C87B4326C33050005AEF65 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B4226C33050005AEF65 /* PostTableViewCell.swift */; };
 		B5C87B4526C33D0E005AEF65 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */; };
+		B5F9E37126C46B94000B3ECE /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5AFD77426C49394008EA074 /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
 		B5C87B1026C31335005AEF65 /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C87B1326C31335005AEF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C87B1526C31335005AEF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		B5C87B3F26C3279E005AEF65 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
 		B5C87B4226C33050005AEF65 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 				B5C87B3226C31987005AEF65 /* PostListTableViewController.swift */,
 				B5C87B3426C31AA7005AEF65 /* PostDetailTableViewController.swift */,
 				B5C87B3626C31BCC005AEF65 /* AddPostTableViewController.swift */,
+				B5AFD77426C49394008EA074 /* PhotoSelectorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			children = (
 				B5C87B3F26C3279E005AEF65 /* PostError.swift */,
 				B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */,
+				B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */,
 			);
 			path = "Helpers and Extensions";
 			sourceTree = "<group>";
@@ -249,11 +255,13 @@
 			files = (
 				B5C87B1426C31335005AEF65 /* AppDelegate.swift in Sources */,
 				B5C87B4026C3279E005AEF65 /* PostError.swift in Sources */,
+				B5F9E37126C46B94000B3ECE /* SearchableRecord.swift in Sources */,
 				B5C87B3D26C323AC005AEF65 /* PostController.swift in Sources */,
 				B5C87B3726C31BCC005AEF65 /* AddPostTableViewController.swift in Sources */,
 				B5C87B1626C31335005AEF65 /* SceneDelegate.swift in Sources */,
 				B5C87B4526C33D0E005AEF65 /* DateFormatter.swift in Sources */,
 				B5C87B3B26C32150005AEF65 /* Comment.swift in Sources */,
+				B5AFD77526C49394008EA074 /* PhotoSelectorViewController.swift in Sources */,
 				B5C87B3926C31C5F005AEF65 /* Post.swift in Sources */,
 				B5C87B4326C33050005AEF65 /* PostTableViewCell.swift in Sources */,
 				B5C87B3526C31AA7005AEF65 /* PostDetailTableViewController.swift in Sources */,

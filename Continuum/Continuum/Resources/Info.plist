@@ -45,6 +45,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Acess to Camera is needed to add photos to posts</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Acess to photos is needed to add photos to posts</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

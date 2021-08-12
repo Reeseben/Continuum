@@ -101,16 +101,27 @@ class PostDetailTableViewController: UITableViewController {
                 }
             }
         }
-        let cancleAction = UIAlertAction(title: "Cancle", style: .cancel, handler: nil)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         alertController.addAction(okayAction)
-        alertController.addAction(cancleAction)
+        alertController.addAction(cancelAction)
         present(alertController, animated: true) {
         }
     }
     @IBAction func shareButtonTapped(_ sender: Any) {
+        guard let post = post,
+              let image = post.photo else { return }
+        let shareSheet = UIActivityViewController(activityItems: [post.caption, image], applicationActivities: nil)
         
+        if let popoverController = shareSheet.popoverPresentationController {
+            popoverController.sourceView = self.view
+            popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.maxY, width: 0, height: 0)
+            popoverController.permittedArrowDirections = []
+        }
+        
+        present(shareSheet, animated: true, completion: nil)
     }
+    
     @IBAction func followPostButtonTapped(_ sender: Any) {
         
     }
