@@ -23,6 +23,7 @@
 		B5C87B4026C3279E005AEF65 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B3F26C3279E005AEF65 /* PostError.swift */; };
 		B5C87B4326C33050005AEF65 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B4226C33050005AEF65 /* PostTableViewCell.swift */; };
 		B5C87B4526C33D0E005AEF65 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */; };
+		B5CE67B526C6003A008D1EA9 /* PresentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CE67B426C6003A008D1EA9 /* PresentError.swift */; };
 		B5F9E37126C46B94000B3ECE /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		B5C87B3F26C3279E005AEF65 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
 		B5C87B4226C33050005AEF65 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		B5CE67B426C6003A008D1EA9 /* PresentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentError.swift; sourceTree = "<group>"; };
 		B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 				B5C87B3F26C3279E005AEF65 /* PostError.swift */,
 				B5C87B4426C33D0E005AEF65 /* DateFormatter.swift */,
 				B5F9E37026C46B94000B3ECE /* SearchableRecord.swift */,
+				B5CE67B426C6003A008D1EA9 /* PresentError.swift */,
 			);
 			path = "Helpers and Extensions";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				B5C87B1626C31335005AEF65 /* SceneDelegate.swift in Sources */,
 				B5C87B4526C33D0E005AEF65 /* DateFormatter.swift in Sources */,
 				B5C87B3B26C32150005AEF65 /* Comment.swift in Sources */,
+				B5CE67B526C6003A008D1EA9 /* PresentError.swift in Sources */,
 				B5AFD77526C49394008EA074 /* PhotoSelectorViewController.swift in Sources */,
 				B5C87B3926C31C5F005AEF65 /* Post.swift in Sources */,
 				B5C87B4326C33050005AEF65 /* PostTableViewCell.swift in Sources */,

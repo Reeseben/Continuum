@@ -29,9 +29,10 @@ class PostTableViewCell: UITableViewCell {
     
     //MARK: - Helper Methods
     func updateViews(with post: Post) {
+        postImageView.layer.cornerRadius = postImageView.layer.bounds.height * 0.2
         postImageView.image = post.photo
         captionTextLable.text = post.caption
-        commentCountTextLable.text = "Comments: \(post.comments.count)"
+        commentCountTextLable.text = "Comments: \(post.commentCount)"
     }
 
 }

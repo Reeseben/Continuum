@@ -17,6 +17,7 @@ class PhotoSelectorViewController: UIViewController {
     //MARK: - Lifecycles
     override func viewDidLoad() {
         super.viewDidLoad()
+        postImage.layer.cornerRadius = postImage.layer.bounds.height * 0.2
     }
     
     override func viewDidDisappear(_ animated: Bool) {
